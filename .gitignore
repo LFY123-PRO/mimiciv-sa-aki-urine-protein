@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+.env
+data/
+local/
+outputs/
+*.npz
+*.npy
+*.parquet
+*.pkl
+*.log
+*.csv
+!analysis_input_columns.csv

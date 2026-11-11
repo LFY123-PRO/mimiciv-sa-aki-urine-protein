@@ -1,0 +1,47 @@
+{
+  "title": "Supplementary Code S1 for routine urine protein prognosis in early sepsis-associated acute kidney injury",
+  "upload_type": "software",
+  "publication_date": "2026-11-11",
+  "version": "1.0.2",
+  "description": "Software accompanying a retrospective 72-hour landmark study of the incremental mortality discrimination provided by routine urine protein reports in adults with early sepsis-associated acute kidney injury using MIMIC-IV v3.1. The package contains seven source SQL files, frozen mortality and RRT modeling modules, an input header with no patient rows, and a portable entry point for four mortality comparisons. Exact replay requires the authorized analysis-ready input in its original row order. Local cleaning, RRT event-scenario construction, additional sensitivity orchestration and final manuscript table construction remain part of the approved local pipeline, as documented in the README. The release contains no patient-level data.",
+  "creators": [
+    {
+      "name": "朱中华",
+      "affiliation": "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+    },
+    {
+      "name": "王小婷",
+      "affiliation": "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+    },
+    {
+      "name": "贺云",
+      "affiliation": "武汉市第五医院检验科"
+    },
+    {
+      "name": "陈婷",
+      "affiliation": "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+    },
+    {
+      "name": "刘福源",
+      "affiliation": "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "MIMIC-IV",
+    "sepsis-associated acute kidney injury",
+    "urinalysis",
+    "proteinuria",
+    "landmark analysis",
+    "mortality",
+    "clinical laboratory medicine"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LFY123-PRO/mimiciv-sa-aki-urine-protein/tree/v1.0.2",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

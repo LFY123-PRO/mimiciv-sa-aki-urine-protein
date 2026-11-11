@@ -1,0 +1,150 @@
+{
+  "package": "Supplementary Code S1",
+  "scope": "Public Supplementary Code S1; portable reproduction of four mortality comparisons using authorized ordered analysis-ready input.",
+  "validated": [
+    "SHA-256 of four frozen statistical modules and six frozen SQL files against RUN metadata",
+    "PostgreSQL syntax parse of seven SQL files with pglast v8.4",
+    "exact normalized text inclusion of the parser in each extraction and measurement SQL",
+    "Python in-memory syntax compilation, four imports and the CLI help path",
+    "allowlisted content plus patterns for absolute drive paths, local addresses, literal secrets and private keys",
+    "data dictionary contains header only"
+  ],
+  "not_executed": [
+    "database queries",
+    "clinical models or bootstrap",
+    "production pipeline end to end"
+  ],
+  "files": {
+    "modeling.py": {
+      "sha256": "ec804a8cf11e560a07a080941b99728e991d4a6218c437be197cc8274d11c894",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P033_PRODUCTION_20261101T093853"
+    },
+    "rrt_core.py": {
+      "sha256": "6b85f2f4ae5da89d9705138ca9191c9f9dba6addf80af09bd8421c24517d7e8e",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P033_RRT_FINAL_20261101T094938"
+    },
+    "rrt_core_fix.py": {
+      "sha256": "fb43a7f910a68d84e5603a630662678efa64e1426ed013971a9ecefdf133900e",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P033_RRT_FINAL_20261101T094938"
+    },
+    "rrt_time_scale.py": {
+      "sha256": "7e108e77106b8d3cd56f3dc8cdc99c8217a4b86576cf91618c7b73d76dce9118",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P033_RRT_FINAL_20261101T094938"
+    },
+    "test_modeling.py": {
+      "sha256": "f2fbc683d3f0f031814b0c704244f45e67a48bf840ad5584af987485d8a38e20",
+      "source_kind": "source_support"
+    },
+    "API.md": {
+      "sha256": "895d0ac7b855c5a6874b5e654746623b3462ce907a0783bae967684d1a77e1e5",
+      "source_kind": "source_support"
+    },
+    "sql/01_primary_cohort.sql": {
+      "sha256": "5a26c21a6664683b2fdd7806a6c4bae4a85cde577f19d4cdd14da8fa1fd2be28",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P032_EXTRACT_20261031T220613"
+    },
+    "sql/02_temporal_sensitivity.sql": {
+      "sha256": "7c1caa4a50533529a3c56f80958064e3972544845274f288adfa94563c6d02fe",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P032_SENS24_20261031T222321"
+    },
+    "sql/03_creatinine_only.sql": {
+      "sha256": "a8e7c12677632caf79070da6f3d6b53f880644ff6c7ba1eebc94945df6b6bfca",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P032_CREAT_ONLY_20261031T222736"
+    },
+    "sql/04_uncertain_landmark_day.sql": {
+      "sha256": "8b935314e35d38d072c83cbedd51770c99b89ca94b5ece26c8a62861ef1d0663",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P032_LDAY_UNCERTAIN_20261031T223542"
+    },
+    "sql/05_extra_covariates.sql": {
+      "sha256": "ebafe9848199cf3aac924cc9e975507895afcaf17386fc144cd4a0eb6127b820",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P032_EXTRA_20261031T224115"
+    },
+    "sql/06_measurement_supplement.sql": {
+      "sha256": "b6e9de2f6afcad5c01532995715442d73e96acc130cb6a7e4da0ec2fa1f02af5",
+      "source_kind": "byte_identical_frozen_production",
+      "frozen_source": "P032_MEASUREMENT_20261101T094355"
+    },
+    "sql/protein_parser.sql": {
+      "sha256": "60757db7f88d5d50b485e756a55521017f68d6e03891803a77f060962c8e0576",
+      "source_kind": "standalone_parser_source"
+    },
+    "analysis_input_columns.csv": {
+      "sha256": "0f41a0ab078330a69ac7f98e80716156d09e58409822bab51f9ea37871153168",
+      "source_kind": "header_only_from_frozen_column_dictionary"
+    },
+    "README.md": {
+      "sha256": "08a583fb2bbdd138d654026c6d0283614f97ac2ddf14dfbc00f306cf71c2bb0f",
+      "source_kind": "P10_portability_documentation_or_adapter"
+    },
+    "fit_mortality.py": {
+      "sha256": "c61319dd1ae1d234a3aa5f9c972a800cbed8ff358ee8aa8960936a3e8f45cbd0",
+      "source_kind": "P10_portability_documentation_or_adapter"
+    },
+    "requirements.txt": {
+      "sha256": "2e7d27bcd2a9113b8464b0c49e46879b4f06f0e54714cbdff2dd6462f9963f0b",
+      "source_kind": "P10_portability_documentation_or_adapter"
+    },
+    ".gitignore": {
+      "sha256": "55518d17845ec7402bee6d7b1f3a65301cbc554ec626ff2ee38e1d93f5cb3e83",
+      "source_kind": "P10_portability_documentation_or_adapter"
+    },
+    ".zenodo.json": {
+      "source_kind": "public_release_documentation",
+      "sha256": "33a71c1445c65fea25ecbd2bd0ed7a43ca213b9cb14c049fd0e42ad933d8d2d4"
+    },
+    "CITATION.cff": {
+      "source_kind": "public_release_documentation",
+      "sha256": "1b9a032f7d78f074c6319931a8f78e6bc89b257d0023ac8bd88deaa2f7c01a2a"
+    },
+    "LICENSE": {
+      "source_kind": "public_release_documentation",
+      "sha256": "d7cfa620d3018685c350de0a757f341f5f466c4f6879b1e26e24e2fe645c8c36"
+    },
+    "RELEASE_NOTES.md": {
+      "source_kind": "public_release_documentation",
+      "sha256": "74ccb421be99e185b784e794207fda525c29c67512f8929bd6cb55a689b024ef"
+    }
+  },
+  "documentation_revision": {
+    "review": "P11 R09, WB09-07",
+    "prior_archive_sha256": "d35dcfa73395a4b7ec6e9d600717376011aef2badc83b335f10802881ced849b",
+    "changed_members": [
+      "README.md",
+      "CODE_MANIFEST.json"
+    ],
+    "prior_archive_replay": {
+      "run_id": "S1_REPLAY_R09",
+      "exit_code": 0,
+      "wall_seconds": 606,
+      "configurations": 4,
+      "completed_resamples_per_configuration": 500
+    },
+    "current_archive_check": "All 17 other members byte-identical to the replayed archive."
+  },
+  "version": "1.0.2",
+  "release_date": "2026-11-11",
+  "license": "MIT",
+  "repository": "https://github.com/LFY123-PRO/mimiciv-sa-aki-urine-protein",
+  "public_release_packaging": {
+    "source_archive_sha256": "a1d8e034751315277b33764ecf69512acd17167f0560d29d788db38db389d3f3",
+    "scientific_files_unchanged": true,
+    "checks": [
+      "27 synthetic checks passed",
+      "Seven SQL files parsed with pglast 8.4",
+      "Four statistical-module imports and CLI help passed"
+    ],
+    "check_python": "3.12.14",
+    "production_python": "3.12.5",
+    "note": "Packaging checks use synthetic data only; prior clinical replay evidence remains described in the README.",
+    "documentation_update": "Explicit access prerequisites, input preparation and documented replay provenance."
+  }
+}

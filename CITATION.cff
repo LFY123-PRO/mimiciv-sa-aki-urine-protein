@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the study code."
+type: software
+title: "Supplementary Code S1 for routine urine protein prognosis in early sepsis-associated acute kidney injury"
+version: "1.0.2"
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/LFY123-PRO/mimiciv-sa-aki-urine-protein"
+authors:
+  - family-names: "朱"
+    given-names: "中华"
+    affiliation: "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+  - family-names: "王"
+    given-names: "小婷"
+    affiliation: "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+  - family-names: "贺"
+    given-names: "云"
+    affiliation: "武汉市第五医院检验科"
+  - family-names: "陈"
+    given-names: "婷"
+    affiliation: "大冶市人民医院（湖北理工学院第二附属医院）检验科"
+  - family-names: "刘"
+    given-names: "福源"
+    affiliation: "大冶市人民医院（湖北理工学院第二附属医院）检验科"
